@@ -1,0 +1,14 @@
+import random
+jogo = [2, 4, 6, 8, 10]
+jogo2 = random.choice(jogo)
+print("-" * 30)
+print("JUST A GAME". center(30))
+print("-" * 30)
+print("A cada etapa comcluida digite Enter.")
+n1 = str(input("Pense em um número. "))
+n2 = str(input("Multipliqueo por 2. "))
+n3 = str(input(f"Adicione {jogo2} á conta! :"))
+n4 = str(input("Divida-o por 2 "))
+n5 = str(input("Retire da conta o numero que vc pensou.."))
+result = jogo2 / 2
+print(f"O resultado será {result}")
